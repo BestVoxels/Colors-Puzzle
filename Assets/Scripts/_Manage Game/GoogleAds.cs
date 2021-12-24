@@ -81,7 +81,7 @@ public class GoogleAds : MonoBehaviour
         }
     }
 
-    private void AdLoadFailed(object sender, AdErrorEventArgs args)
+    private void AdLoadFailed(object sender, AdFailedToLoadEventArgs args)
     {
         _isFailed = true;
 
