@@ -11,7 +11,7 @@ public class GameAd : MonoBehaviour
     private Button[] _reviveTrialButton;
     public Button[] ReviveTrialButton { get { return _reviveTrialButton; } } // Declare here cuz this class already has instance of it & it manage both of them in array perfectly
 
-    private const byte _defaultAd = 1; //"Google" = 1 | "Unity" = 2 (Manage Order at Switch Case in FetchAds)
+    private const byte _defaultAd = 2; //"Google" = 1 | "Unity" = 2 (Manage Order at Switch Case in FetchAds)
     private const byte _maxAds = 2;
 
     private byte _adStarter = _defaultAd;
@@ -47,8 +47,8 @@ public class GameAd : MonoBehaviour
             _adError = 0;
             ReviveTrialButton[CurAd].interactable = true;
 
+            UnityAds.Instance.InitializeAds();
             GoogleAds.Instance.CreateAndLoadRewardedAd((byte)CurAd);
-            // Can't do for Unity cuz don't have
         }
 
         switch (_adStarter)
