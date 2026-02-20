@@ -63,7 +63,8 @@ The application manages strict state transitions (Play → Fail) based on time c
 ---
 
 ### **6. Full SDLC & Production Deployment**
-<img width="1171" height="1142" alt="Image" src="https://github.com/user-attachments/assets/25913162-76fb-4c43-8ce6-f23f35ed83a0" />
+<img width="585.5" height="571" alt="Image" src="https://github.com/user-attachments/assets/25913162-76fb-4c43-8ce6-f23f35ed83a0" />
+<img width="522.5" height="474.5" alt="Image" src="https://github.com/user-attachments/assets/2ba884ea-7956-424a-924f-21341ed36cd3" />
 
 Evidence of the complete Software Development Life Cycle (SDLC). I independently managed the build pipeline, compliance, and App Store Optimization (ASO) for both iOS and Android, successfully shipping the application to a global audience with 2,172+ organic users.
 
